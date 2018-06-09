@@ -1,0 +1,86 @@
+
+/*index.html Responsive Part*/
+.filter-options {
+	height: 80px;
+}
+
+.filter-options h2 {
+    font-weight: 200;
+    padding-top: 10px;
+}
+
+#restaurants-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box {
+	width: 100%;
+}
+
+@media screen and (max-width: 550px) {
+	
+	#restaurants-list li {
+		width: 100%;
+		max-width: 100%;
+	}
+ }
+
+@media screen and (min-width: 551px) {
+	
+	#restaurants-list li {
+		margin-right: 10px;
+		width: calc((100% - 20px) / 3)
+	}
+}
+
+@media screen and (min-width: 750px) {
+	#Restaurant-data {
+		/*width: 100%;*/
+		max-width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	#restaurants-list li {
+		margin-right: 10px;
+		width: 33%;
+		/*width:35%;*/
+	}
+
+}
+
+@media screen and (min-width: 850px) {
+	#restaurants-list li {
+		/*margin-right: 10px;*/
+		width: 30%;
+	}
+}
+@media screen and (min-width: 950px){
+	#restaurants-list li {
+		/*margin-right: 10px;*/
+		width: 37%;
+	}
+}
+@media screen and (min-width: 1114px) {
+	#restaurants-list li {
+		/*margin-right: 10px;*/
+		width: 25%;
+	}
+}
+@media screen and (max-width: 460px) {
+
+	.filter-options{
+		display: flex;
+		flex-wrap: wrap;
+
+	}
+	.filter-options h2 {
+		width: 100%;
+	}
+	#neighborhoods-select {
+		width: calc((100% - 10px) / 3)
+	}
+	#cuisines-select {
+		width: calc((100% - 10px) / 3)
+	}
+}
