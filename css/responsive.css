@@ -33,6 +33,7 @@
 		    box-sizing: border-box;
 		    position: relative;
 		    height: 10%;
+		    bottom: 100px;
       }
       #reviews-container {
 		padding: 2px 3px 5px;
@@ -117,4 +118,22 @@
 
     }
 
-   
+/*Accessibility*/
+.hide-label{
+	width: 0px;
+    font-size: 1px;
+    position: absolute
+}
+
+.skip-link {
+		position :  absolute;
+		top: -40px;
+		left: 0;
+		background: #BF1722;
+		color: white;
+		padding: 8px;
+		z-index: 100;
+}
+.skip-link: focus {
+	top: 0;
+}

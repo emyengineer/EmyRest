@@ -84,3 +84,22 @@
 		width: calc((100% - 10px) / 3)
 	}
 }
+/*Accessibility*/
+.hide-label{
+	width: 0px;
+    font-size: 1px;
+    position: absolute
+}
+
+.skip-link {
+		position :  absolute;
+		top: -40px;
+		left: 0;
+		background: #BF1722;
+		color: white;
+		padding: 8px;
+		z-index: 100;
+}
+.skip-link: focus {
+	top: 0;
+}

@@ -16,22 +16,27 @@
   <header>
     <!-- Beginning nav -->
     <nav>
-      <h1><a href="/">Restaurant Reviews</a></h1>
+      <h1><a href="/" role="link" aria-label="Restaurant Reviews a link to the home page">Restaurant Reviews</a></h1>
     </nav>
+    <a href = "#restaurant-img" class = "skip-link" >Skip to main content</a>
     <!-- Beginning breadcrumb -->
     <ul id="breadcrumb" >
-      <li><a href="/">Home</a></li>
+      <li><a href="/" role="link">Home</a></li>
     </ul>
     <!-- End breadcrumb -->
     <!-- End nav -->
   </header>
   <!-- End header -->
-
+  
   <!-- Beginning main -->
   <main id="maincontent">
     <!-- Beginning map -->
-    <section id="map-container">
-      <div id="map"></div>
+     <span id="rg-label" class="hide-label">
+        Google Maps Navigation
+      </span>
+      <p id="tblDesc" class="hide-label">Working Hours schedule table</p>
+    <section id="map-container" role="application" aria-labelledby="rg-label">
+      <div id="map" ></div>
     </section>
     <!-- End map -->
     <!-- Beginning restaurant -->
@@ -40,7 +45,7 @@
       <img id="restaurant-img">
       <p id="restaurant-cuisine"></p>
       <p id="restaurant-address"></p>
-      <table id="restaurant-hours"></table>
+      <table id="restaurant-hours" aria-describedby="tblDesc" tabindex="0"></table>
     </section>
     <!-- end restaurant -->
     <!-- Beginning reviews -->
@@ -53,7 +58,7 @@
 
   <!-- Beginning footer -->
   <footer id="footer">
-    Copyright (c) 2017 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
+    Copyright (c) 2017 <a href="/" role="link" aria-label="Restaurant Reviews a link to the home page"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
   </footer>
   <!-- End footer -->
 
