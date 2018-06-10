@@ -9,7 +9,7 @@ class DBHelper {
    */
   static get DATABASE_URL() {
     const port = 8000 // Change this to your server port
-    return 'https://emyengineer.github.io/mws-restaurant-stage-1/data/restaurants.json';
+    return 'https://emyengineer.github.io/EmyRest/data/restaurants.json';
   }
 
   /**
