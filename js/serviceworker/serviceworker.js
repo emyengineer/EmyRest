@@ -1,4 +1,4 @@
-let cacheName = 'cache-v3';
+let cacheName = 'cache-v1';
 let urlsToCache = [
 		'/',
 		'./css/main.css',
