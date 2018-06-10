@@ -36,15 +36,12 @@ In a terminal, check the version of Python you have: python -V. If you have Pyth
 
 With your server running, visit the site: http://localhost:8000, and here you go :) 
 [mws-restaurant-stage-1](https://emyengineer.github.io/mws-restaurant-stage-1)
-# Contributing
-This code is developed and used search for help on some
-* [jasmine](https://jasmine.github.io/) 
+
 
 # Why This Project?
 _All content-related images include appropriate alternate text that clearly describes the content of the image.
 Focus is appropriately managed allowing users to noticeably tab through each of the important elements of the page. Modal or interstitial windows appropriately lock focus.
 Elements on the page use the appropriate semantic elements. For those elements in which a semantic element is not available, appropriate ARIA roles are defined.
-
 When available in the browser, the site uses a service worker to cache responses to requests for site assets. Visited pages are rendered when there is no network access._
 
 
