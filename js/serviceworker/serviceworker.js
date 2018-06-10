@@ -1,6 +1,6 @@
 let cacheName = 'cache-v1';
 let urlsToCache = [
-		'/',
+		'./',
 		'./css/main.css',
 		'./css/responsive.css',
 		'./css/styles.css',
