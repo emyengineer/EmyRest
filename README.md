@@ -30,6 +30,12 @@ _a dynamic responsive webpage  mobile-ready web application. In Stage One, It ha
 # Install:
 download all the files contained within `mws-restaurant-stage-1` folder
 with all subfolders `css`, `img`, `js` and `index.html`.
+# !! Note !!
+This Method should be like this:
+	To make the application run locally: in file `dbhelper.js`
+	`static imageUrlForRestaurant(restaurant) {
+    return (`/img/${restaurant.photograph}`);`
+  } 
 
 # Run the project:
 In a terminal, check the version of Python you have: python -V. If you have Python 2.x, spin up the server with python -m SimpleHTTPServer 8000 (or some other port, if port 8000 is already in use.) For Python 3.x, you can use python3 -m http.server 8000. If you don't have Python installed, navigate to Python's website to download and install the software.

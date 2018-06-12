@@ -150,7 +150,12 @@ class DBHelper {
    * Restaurant image URL.
    */
   static imageUrlForRestaurant(restaurant) {
-    return (`/img/${restaurant.photograph}`);
+
+    /* to make this app run locally uncomment the line below
+      return (`/img/${restaurant.photograph}`);
+    */
+    // to make app work on GitHubrepo
+    return (`/EmyRest/img/${restaurant.photograph}`);
   }
 
   /**
